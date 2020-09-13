@@ -1,0 +1,48 @@
+﻿@model ComposeEmailVM;
+
+@{
+    ViewData["Title"] = "Compose Email";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Send an email to a user</p>
+</div>
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <form asp-controller="Home" asp-action="SendEmail" method="post" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label asp-for="FirstName" for="FirstName">First Name:</label>
+                        <input asp-for="FirstName" type="text" class="form-control" id="FirstName" placeholder="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label asp-for="LastName" for="FirstName">Last Name:</label>
+                        <input asp-for="LastName" type="text" class="form-control" id="LastName" placeholder="">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Subject" for="email-subject">Subject:</label>
+                <input asp-for="Subject" type="text" class="form-control" id="email-subject" placeholder="">
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" for="email-address">Email:</label>
+                <input asp-for="Email" type="email" class="form-control" id="email-address" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label asp-for="Body" for="email-body">Body</label>
+                <textarea asp-for="Body" class="form-control" id="email-body" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <input asp-for="Attachment" type="file" id="attachment" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-outline-success">Send</button>
+            </div>
+        </form>
+    </div>
+</div>
