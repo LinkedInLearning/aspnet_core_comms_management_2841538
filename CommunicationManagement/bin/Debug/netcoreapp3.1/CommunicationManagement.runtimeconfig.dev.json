@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\LinkedIn Learning\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\LinkedIn Learning\\.nuget\\packages",
+      "C:\\Microsoft\\Xamarin\\NuGet"
+    ]
+  }
+}
