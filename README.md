@@ -1,7 +1,7 @@
 # COURSENAME
 This is the repository for the LinkedIn Learning course `ASP.NET Core: Communication Management`. The full course is available from [LinkedIn Learning](https://linkedin.com/learning/).
 
-[COURSEDESCRIPTION]
+Discover how to integrate email services into your ASP.NET Core application. Learn how to use services such as SendGrid to send and track emails and help build your business.
 
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
