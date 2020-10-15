@@ -1,4 +1,4 @@
-# COURSENAME
+# ASP.NET Core: Communication Management
 This is the repository for the LinkedIn Learning course `ASP.NET Core: Communication Management`. The full course is available from [LinkedIn Learning](https://linkedin.com/learning/).
 
 Discover how to integrate email services into your ASP.NET Core application. Learn how to use services such as SendGrid to send and track emails and help build your business.
