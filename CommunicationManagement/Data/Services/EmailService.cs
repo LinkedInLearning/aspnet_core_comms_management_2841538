@@ -72,7 +72,7 @@ namespace CommunicationManagement.Data.Services
 
             var subject = "Multiple emails";
             var tos = new List<EmailAddress>(){
-                new EmailAddress("ervistrupja@gmail.com", $"First Last - 1"),
+                new EmailAddress("someemail@email.com", $"First Last - 1"),
                 new EmailAddress("sendgrid@devyscope.com", $"Second Second - 2")
             };
 
